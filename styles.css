@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d8d5d5 #151515;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #151515;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d8d5d5;
+    border-radius: 10px;
+    border: 3px solid #d8d5d5;
+  }
+body{
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(216, 213, 213);
+}
+.contenaire_1{
+    margin-top: 50px;
+    align-self: center;
+    width: 700px;
+    flex-direction: column;
+}
+.contenaire_1 #pdp{
+    border: 1px rgba(187, 186, 186, .5) solid;
+    border-radius: 50%;
+    transition: all 2s ease;
+    width: 275px;
+    margin-left: 225px;
+    box-shadow: 2px 2px 10px rgb(149, 149, 149);
+}
+.contenaire_1 #pdp:hover{
+    cursor: pointer;
+    background-color: rgb(187, 186, 186);
+    border: 1px  solid rgb(187, 186, 186);
+    box-shadow: 5px 5px 25px rgb(200, 200, 200);
+}
+.contenaire_2 img{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.contenaire_3{
+    margin-top: 25px;
+    height: 900px;
+    border-top: 1px #757575 solid;
+}
+h2{
+    margin-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(216, 213, 213);
+}
+#about{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #4285F4;
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px 0 0 10px;
+    font-size: 1.1em;
+    color: rgb(216, 213, 213);
+}
+#hobbies{
+    list-style: none;
+    text-decoration: underline;
+}
+.liste_hobbies{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0 0 10px;
+    font-size: 1.1em;
+    color: rgb(216, 213, 213);
+}
+.hobbies{
+    margin: 5px 0 0 30px;
+}
+#skills{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #DB4437;
+    text-align: center;
+}
+.logo_language{
+    cursor: pointer;
+    width: 80px;
+    margin: 25px 0 0 30px;
+    transform: scale(0.85);
+    transition: all 0.5s ease;
+}
+.logo_language:hover{
+    transform: scale(1);
+}
+.logo_language_css{
+    cursor: pointer;
+    width: 60px;
+    margin: 25px 0 0 30px;
+    transform: scale(0.85);
+    transition: all 0.5s ease;
+}
+.logo_language_css:hover{
+    transform: scale(1);
+}
+#net_works{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #F4B400;
+    text-align: center;
+}
+.link{
+    font-size: 1em;
+    margin: 20px 0 0 20px;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(150, 60, 150);
+}
+.link a:hover{
+    text-decoration: underline;
+}
+.link a:visited{
+    color: #b94848;
+}
+#discord{
+    text-decoration: line-through;
+}
+#projects{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
+    margin-top: 20px;
+    color: #0F9D58;
+    text-align: center;
+}
+h4{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    opacity: 0.8;
+    color: aliceblue;
+}
