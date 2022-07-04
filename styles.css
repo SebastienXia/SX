@@ -168,6 +168,9 @@ h4{
 }
 
 @media screen and (min-width: 600px) and (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
     h2{
         font-size: 0.7em;
     }
@@ -188,6 +191,9 @@ h4{
     }
 }
 @media screen and (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
     .contenaire_1{
         width: 400px;
     }
