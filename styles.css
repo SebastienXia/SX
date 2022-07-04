@@ -164,3 +164,45 @@ h4{
     opacity: 0.8;
     color: aliceblue;
 }
+@media screen and (max-width: 600px){
+    h2{
+        font-size: 0.65em;
+    }
+    p{
+        font-size: 0.65em;
+        text-align: center;
+    }
+    li, ul{
+        font-size: 0.8em;
+        margin-left: 80px;
+    }
+    .logo_language{
+        width: 50px;
+        margin-left: 80px;
+    }
+    .logo_language_css{
+        width: 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    h2{
+        font-size: 0.7em;
+    }
+    p{
+        font-size: 0.7em;
+        text-align: center;
+    }
+    li, ul{
+        font-size: 0.9em;
+        margin-left: 70px;
+    }
+    .logo_language{
+        width: 50px;
+        margin-left: 85px;
+    }
+    .logo_language_css{
+        width: 35px;
+    }
+}
+    
+}
