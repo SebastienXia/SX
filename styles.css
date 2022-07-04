@@ -164,27 +164,8 @@ h4{
     opacity: 0.8;
     color: aliceblue;
 }
-@media screen and (max-width: 600px){
-    h2{
-        font-size: 0.65em;
-    }
-    p{
-        font-size: 0.65em;
-        text-align: center;
-    }
-    li, ul{
-        font-size: 0.8em;
-        margin-left: 80px;
-    }
-    .logo_language{
-        width: 50px;
-        margin-left: 80px;
-    }
-    .logo_language_css{
-        width: 40px;
-    }
-}
-@media screen and (max-width: 700px){
+
+@media screen and (min-width: 600px) and (max-width: 700px){
     h2{
         font-size: 0.7em;
     }
@@ -204,5 +185,56 @@ h4{
         width: 35px;
     }
 }
-    
+@media screen and (max-width: 400px){
+    .contenaire_1{
+        width: 400px;
+    }
+    h1{
+        font-size: 0.5em;
+    }
+    .contenaire_1 #pdp{
+        width: 80px;
+        margin-left: 160px;
+    }
+    .contenaire_2 img{
+        width: 70px;
+        margin-left: 165px;
+    }
+    h2{
+        font-size: 0.35em;
+    }
+    p{
+        font-size: 0.35em;
+        text-align: center;
+    }
+    li, ul{
+        font-size: 0.35em;
+        margin-left: 40px;
+    }
+    .logo_language{
+        width: 20px;
+        margin-right: 25px;
+    }
+    .logo_language_css{
+        width: 15px;
+        margin-right: 25px;
+    }
+    #about{
+        font-size: 1.5em;
+    }
+    #skills{
+        font-size: 1.5em;
+    }
+    #net_works{
+        font-size: 1.5em;
+    }
+    #projects{
+        font-size: 1.5em;
+    }
+    .link{
+        margin-right: 50px;
+    }
+    h4{
+        font-size: 0.8em;
+    }
 }
