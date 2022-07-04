@@ -186,6 +186,9 @@ h4{
     }
 }
 @media screen and (max-width: 400px){
+    .body{
+        overflow-x: hidden;
+    }
     .contenaire_1{
         width: 400px;
     }
